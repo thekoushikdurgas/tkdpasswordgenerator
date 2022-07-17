@@ -1,0 +1,490 @@
+.passwrapper {
+  margin: auto;
+  /* width: 98%; */
+  /* height: 100%; */
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 22px;
+}
+.passwrapper .topbar {
+  height: 4rem;
+}
+.passwrapper .bulgy-checkboxs-label {
+  position: relative;
+  padding-left: 45px;
+  padding-top: 13px;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+  letter-spacing: 1px;
+  font-family: Julius Sans One;
+  display: flex;
+}
+.passwrapper .bulgy-checkboxs {
+  height: 45px;
+}
+.passwrapper .bulgy-checkboxs-label:hover input:not(:checked) ~ .checkbox {
+  opacity: 0.8;
+}
+.passwrapper .bulgy-checkboxs .label {
+  display: flex;
+  align-items: center;
+}
+.passwrapper .bulgy-checkboxs .label span {
+  line-height: 1em;
+}
+.passwrapper .bulgy-checkboxs input {
+  position: absolute;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  left: -2000px;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .checkbox {
+  transition: all 0.3s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .checkbox:after {
+  opacity: 1;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label {
+  font-size: 18px;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span {
+  animation: bulge 0.5s forwards;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(1) {
+  animation-delay: 0.025s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(2) {
+  animation-delay: 0.05s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(3) {
+  animation-delay: 0.075s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(4) {
+  animation-delay: 0.1s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(5) {
+  animation-delay: 0.125s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(6) {
+  animation-delay: 0.15s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(7) {
+  animation-delay: 0.175s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(8) {
+  animation-delay: 0.2s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(9) {
+  animation-delay: 0.225s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(10) {
+  animation-delay: 0.25s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(11) {
+  animation-delay: 0.275s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(12) {
+  animation-delay: 0.3s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(13) {
+  animation-delay: 0.325s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(14) {
+  animation-delay: 0.35s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(15) {
+  animation-delay: 0.375s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(16) {
+  animation-delay: 0.4s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(17) {
+  animation-delay: 0.425s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(18) {
+  animation-delay: 0.45s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(19) {
+  animation-delay: 0.475s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(20) {
+  animation-delay: 0.5s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(21) {
+  animation-delay: 0.525s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(22) {
+  animation-delay: 0.55s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(23) {
+  animation-delay: 0.575s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(24) {
+  animation-delay: 0.6s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(25) {
+  animation-delay: 0.625s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(26) {
+  animation-delay: 0.65s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(27) {
+  animation-delay: 0.675s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(28) {
+  animation-delay: 0.7s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(29) {
+  animation-delay: 0.725s;
+}
+.passwrapper .bulgy-checkboxs input:checked ~ .label span:nth-child(30) {
+  animation-delay: 0.75s;
+}
+.passwrapper .checkbox {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  transform: scale(1);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.passwrapper .checkbox:hover {
+  transform: scale(1.1);
+}
+.passwrapper .checkbox:active {
+  transform: scale(0.9);
+}
+.passwrapper .w3-rowcheckboxs {
+  margin: auto;
+  margin-top: 0;
+  padding: 3px 15px;
+  font-size: 20px !important;
+  text-align: center;
+  line-height: 65px;
+  font-family: monospace;
+}
+.passwrapper label input:checked + .checkbox:after {
+  transform: scale(1);
+}
+.passwrapper label .checkbox:after {
+  opacity: 0;
+  border-radius: 50%;
+  transform: scale(0);
+  content: "︎✔";
+  font-size: 20px;
+  transition: 0.1s;
+  -webkit-text-stroke: 1px #2c0101;
+}
+.passwrapper .decrementincrementtkd {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 35px;
+  color: var(--text-color);
+}
+.passwrapper .decrementincrementtkd input {
+  background: none;
+  transition: all 250ms ease-in-out;
+  width: 60%;
+  padding: 0 12px;
+  outline: none;
+}
+.passwrapper .input-number {
+  width: 80px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+}
+.passwrapper .input-number,
+.passwrapper .input-number-decrement,
+.passwrapper .input-number-increment {
+  user-select: none;
+  font-size: 20px;
+  font-family: Julius Sans One;
+  text-shadow: 0 4px 4px #282828;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.passwrapper .input-number-decrement,
+.passwrapper .input-number-increment {
+  width: 21%;
+  cursor: pointer;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passwrapper .input-number-decrement {
+  border-right: none;
+  border-radius: 30px 0 0 30px;
+}
+.passwrapper .input-number-increment {
+  border-left: none;
+  border-radius: 0 30px 30px 0;
+}
+.passwrapper .range {
+  height: 55px;
+  width: 100%;
+  padding: 0 49px 0 24px;
+}
+.passwrapper .sliderValue {
+  position: relative;
+  width: 100%;
+  z-index: 1000;
+  left: 1px;
+}
+.passwrapper .sliderValue span {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  transform: translateX(-70%) scale(0);
+  font-weight: 500;
+  top: -46px;
+  line-height: 55px;
+  z-index: 2;
+  color: #2c0101;
+  transform-origin: bottom;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.passwrapper .sliderValue span.show {
+  transform: translateX(-70%) scale(1);
+}
+.passwrapper .sliderValue span:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  left: 55%;
+  transform: translateX(-50%) rotate(45deg);
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 6px 14px;
+  overflow: visible;
+  background: var(--tkd3);
+  border: 3px solid #2c0101;
+  box-shadow: 0 20px 50px var(--text-color), inset 0 0 11px 0 #2c0101;
+  backdrop-filter: blur(5px);
+}
+.passwrapper .field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+.passwrapper .field .value {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+}
+.passwrapper .field .value.left {
+  left: -20px;
+}
+.passwrapper .field .value.right {
+  right: -46px;
+}
+.passwrapper .range input {
+  outline: none;
+  z-index: 20;
+  appearance: none;
+  height: 10px;
+  transition: opacity 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  backdrop-filter: blur(5px);
+}
+.passwrapper .range input::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  background: #fe6100;
+  cursor: pointer;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 1), 0 0 20px 10px rgb(0 0 0 / 15%),
+    inset 0 0 4px 2px rgb(0 0 0 / 15%);
+  box-sizing: border-box;
+  transition: transform 0.1s;
+  cursor: grab;
+  border: 3px solid #fe6100;
+}
+.passwrapper .display1 {
+  font-size: 20px !important;
+  height: 50px;
+  text-align: center;
+  line-height: 65px;
+  font-family: monospace;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.passwrapper .button-row {
+  display: flex;
+  margin: auto;
+  padding: 6px;
+  width: 97%;
+  border-radius: 20px;
+  border: 2px solid #2c0101;
+  background: #fe6100;
+  box-shadow: 0 0 20px 4px #2c0101, inset 0 0 11px 0 #2c0101;
+  color: var(--tkd1);
+  text-shadow: 0 0 4px #2c0101, 0 0 12px #2c0101, 0 0 7px #2c0101;
+  height: 120px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.passwrapper .range-row {
+  padding: 0 16px;
+}
+.passwrapper .w3-row {
+  margin-top: 15px;
+  position: relative;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.passwrapper .w3-row1 {
+  position: relative;
+  margin: auto;
+  display: flex;
+  padding: 0 16px;
+  height: 60px;
+  text-align: center;
+  text-shadow: 0 0 4px #2c0101, 0 0 12px #2c0101, 0 0 7px #2c0101;
+  justify-content: space-between;
+  align-items: center;
+}
+.passwrapper .button {
+  user-select: none;
+  outline: none;
+  height: 35px;
+  border: none;
+  background: var(--background-color);
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 15px #96969680, inset -5px -5px 15px #00000080,
+    3px 3px 5px #000000b3;
+  transition: box-shadow 0.15s;
+  line-height: 0;
+  width: 100%;
+  color: var(--text-color);
+}
+.passwrapper .button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.passwrapper .button > * {
+  transition: transform 0.2s ease;
+}
+.passwrapper .button:hover > * {
+  transform: scale(0.975);
+}
+.passwrapper .button:active > * {
+  transform: scale(0.95);
+}
+.passwrapper .button:active {
+  box-shadow: inset 1px 1px 1px #96969680, inset -1px -1px 1px #00000080,
+    1px 1px 1px #000000b3;
+}
+.passwrapper .button:focus {
+  outline: none;
+}
+.passwrapper .qr-code {
+  height: 90%;
+}
+.passwrapper .qrcode {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.passwrapper .buttonrow {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.passwrapper .buttonrow button {
+  width: 40%;
+  margin-right: 20px;
+}
+.passwrapper .displayform,
+.passwrapper .w3-row1,
+.passwrapper .range-row,
+.passwrapper .w3-rowcheckboxs,
+.passwrapper .button-row {
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.bodydark .passwrapper .button:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+.bodydark .passwrapper .button:focus {
+  animation: none;
+}
+@keyframes bulge {
+  50% {
+    transform: rotate(4deg);
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  100% {
+    transform: rotate(0);
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
