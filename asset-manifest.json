@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a96e5b3.css",
-    "main.js": "/static/js/main.7740d54d.js",
+    "main.css": "/static/css/main.e0684708.css",
+    "main.js": "/static/js/main.afd4bec6.js",
     "static/media/passwordchart.png": "/static/media/passwordchart.263c9280c501858e3868.png",
     "index.html": "/index.html",
-    "main.6a96e5b3.css.map": "/static/css/main.6a96e5b3.css.map",
-    "main.7740d54d.js.map": "/static/js/main.7740d54d.js.map"
+    "main.e0684708.css.map": "/static/css/main.e0684708.css.map",
+    "main.afd4bec6.js.map": "/static/js/main.afd4bec6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a96e5b3.css",
-    "static/js/main.7740d54d.js"
+    "static/css/main.e0684708.css",
+    "static/js/main.afd4bec6.js"
   ]
 }
